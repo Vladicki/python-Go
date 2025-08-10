@@ -1,64 +1,54 @@
-# Nerd Fonts
+# Python-Go
 
-This is an archived font from the Nerd Fonts release v3.4.0.
+A fully custom **Game of Go** implementation built from scratch using **Python** and **Qt6**.
 
-For more information see:
-* https://github.com/ryanoasis/nerd-fonts/
-* https://github.com/ryanoasis/nerd-fonts/releases/latest/
+This project showcases a dynamic, fully interactive Go board with a complete scoring system, all designed and developed by us.
 
-# Hermit
+---
 
-**Hermit** is a monospace font designed to be clear, pragmatic and very readable.
+## Project Overview
 
-https://pcaro.es/p/hermit
+We designed and coded every aspect of the game:  
+- The Go board dynamically updates with every move  
+- A robust scoring system tracks territory and captures  
+- All game logic and UI components built from the ground up  
 
-For more information have a look at the upstream website: https://github.com/pcaro90/hermit
+The entire project strictly follows **object-oriented programming (OOP)** principles, emphasizing clean code structure, modularity, and comprehensive comments for maintainability and clarity.
 
-Version: 2.0
+---
+<img width="1968" height="1330" alt="Image" src="https://github.com/user-attachments/assets/047e9d88-8b70-446c-9ea5-20435300faa0" />
+## Collaboration & Development
 
-## Why `Hurmit` and not `Hermit`?
+This project was developed in close collaboration with a fellow developer, demonstrating effective teamwork and version control practices.
 
-What's in a name? The reason for the name change is to comply with the SIL Open Font License (OFL), in particular the [Reserved Font Name mechanism][SIL-RFN]
+All features have been thoroughly **unit tested** to ensure reliability and correctness.
 
-Some fonts have parts of their name "reserved" per the [Reserved Font Name mechanism][SIL-RFN]:
-> No Modified Version of the Font Software may use the Reserved Font
-> Name(s) unless explicit written permission is granted by the corresponding
-> Copyright Holder. This restriction only applies to the primary font name as
-> presented to the users.
+---
 
-- The main goals seem to be to: `Avoid collisions`, `Protect authors`, `Minimize support`, and `Encourage derivatives`
+## Skills & Technologies Highlighted
 
-See the [Reserved Font Name section][SIL-RFN] for additional information
+This project demonstrates:  
+- Advanced Python programming and design patterns  
+- Proficient use of **Qt6** for modern GUI development  
+- Deep understanding of OOP principles and clean code architecture  
+- Writing maintainable, well-documented, and tested code  
+- Collaboration skills in a team development environment  
 
-## Which font?
+These skills reflect qualities highly sought after by employers in software development and game programming roles.
 
-### TL;DR
+---
 
-* Pick your font family:
-  * If you are limited to monospaced fonts (because of your terminal, etc) then pick a font with `Nerd Font Mono` (or `NFM`).
-  * If you want to have bigger icons (usually around 1.5 normal letters wide) pick a font without `Mono` i.e. `Nerd Font` (or `NF`). Most terminals support this, but ymmv.
-  * If you work in a proportional context (GUI elements or edit a presentation etc) pick a font with `Nerd Font Propo` (or `NFP`).
+## Installation & Usage
 
-### Ligatures
+### Prerequisites  
+- Python 3.8+  
+- PyQt6 library  
 
-Ligatures are generally preserved in the patched fonts.
-Nerd Fonts `v2.0.0` had no ligatures in the `Nerd Font Mono` fonts, this has been dropped with `v2.1.0`.
-If you have a ligature-aware terminal and don't want ligatures you can (usually) disable them in the terminal settings.
-
-### Explanation
-
-Once you narrow down your font choice of family (`Droid Sans`, `Inconsolata`, etc) and style (`bold`, `italic`, etc) you have 2 main choices:
-
-#### `Option 1: Download already patched font`
-
- * For a stable version download a font package from the [release page](https://github.com/ryanoasis/nerd-fonts/releases)
- * Or download the development version from the folders here
-
-#### `Option 2: Patch your own font`
-
- * Patch your own variations with the various options provided by the font patcher (i.e. not include all symbols for smaller font size)
-
-For more information see: [The FAQ](https://github.com/ryanoasis/nerd-fonts/wiki/FAQ-and-Troubleshooting#which-font)
-
-[SIL-RFN]:http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web_fonts_and_RFNs#14cbfd4a
-
+### Setup  
+Clone the repository and create a virtual environment:  
+```bash
+git clone git@github.com:Vladicki/python-Go.git
+cd python-Go
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
