@@ -17,6 +17,7 @@ The entire project strictly follows **object-oriented programming (OOP)** princi
 
 ---
 <img width="1968" height="1330" alt="Image" src="https://github.com/user-attachments/assets/047e9d88-8b70-446c-9ea5-20435300faa0" />
+
 ## Collaboration & Development
 
 This project was developed in close collaboration with a fellow developer, demonstrating effective teamwork and version control practices.
@@ -52,3 +53,9 @@ cd python-Go
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
+### Run 
+```python
+python main.py
+
+```
